@@ -17,7 +17,7 @@ kotlin {
             // Comment the next section to generate Kotlin/Native library (KLIB) instead of executable file:
             executable("parser") {
                 // Change to specify fully qualified name of your application's entry point:
-                entryPoint = "sample.csvparser.main"
+                entryPoint = "hinrichs.csvparser.main"
                 runTask?.args("/home/hauke/test.csv")
             }
         }
